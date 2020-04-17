@@ -100,6 +100,14 @@ var result = array.flatMap(
   'banana mango',
   'lemon mango'
 ]
+// or
+var result = array.reduce( (acc, v, i) =>
+    acc.concat(array.slice(i+1).map( w => v + ' ' + w )),
+    []);
+// or
+var result = [].concat(...array.map(
+    (v, i) => array.slice(i+1).map( w => v + ' ' + w ))
+);
 ```
 * permutations
 
