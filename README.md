@@ -34,3 +34,70 @@ fn([1, 2]) //=> 3
 ``` javascript
 [1,,2].reduce((x,y) => x+y) //=> 3
 ```
+* sort
+
+``` javascript
+const unsorted_object = {
+    '0001': '13.1666',
+    '0002': '11.0001',
+    '0003': '10.6664',
+    '0004': '13.1666',
+    '0005': '7.3331',
+};
+
+const sorted_object = Object.entries(unsorted_object)
+      .sort(([,v1], [,v2]) => +v2 - +v1)
+      .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+
+//=>
+{
+  '0001': '13.1666',
+  '0004': '13.1666',
+  '0002': '11.0001',
+  '0003': '10.6664',
+  '0005': '7.3331'
+}
+```
+* flatten
+
+``` javascript
+[1, 2, [3, 4]].flat()
+//=> [ 1, 2, 3, 4 ]
+```
+* slice
+
+``` javascript
+[ 1, 2, 3, 4 ].slice(1, 2)
+//=> [ 2 ]
+```
+* splice
+
+``` javascript
+[ 1, 2, 3, 4 ].splice(2)
+//=> [ 3, 4 ]
+```
+
+* concat
+
+``` javascript
+[ 1, 2, 3, 4 ].concat([8, 9])
+//=> [ 1, 2, 3, 4, 8, 9 ]
+```
+* combinations
+
+``` javascript
+var array = ["apple", "banana", "lemon", "mango"];
+
+var result = array.flatMap(
+    (v, i) => array.slice(i+1).map( w => v + ' ' + w )
+);
+//=>
+[
+  'apple banana',
+  'apple lemon',
+  'apple mango',
+  'banana lemon',
+  'banana mango',
+  'lemon mango'
+]
+```
