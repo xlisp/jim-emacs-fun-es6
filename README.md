@@ -1,8 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+# jim-emacs-fun-es6 JavaScript函数式的列表(如果必要的化引入流行的函数式的库, 如underscore.js)
 
-- [jim-emacs-fun-es6 JavaScript函数式的列表(如果必要的化引入流行的函数式的库)](#jim-emacs-fun-es6-javascript%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%88%97%E8%A1%A8%E5%A6%82%E6%9E%9C%E5%BF%85%E8%A6%81%E7%9A%84%E5%8C%96%E5%BC%95%E5%85%A5%E6%B5%81%E8%A1%8C%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%BA%93)
+- [jim-emacs-fun-es6 JavaScript函数式的列表(如果必要的化引入流行的函数式的库, 如underscore.js)](#jim-emacs-fun-es6-javascript%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%88%97%E8%A1%A8%E5%A6%82%E6%9E%9C%E5%BF%85%E8%A6%81%E7%9A%84%E5%8C%96%E5%BC%95%E5%85%A5%E6%B5%81%E8%A1%8C%E7%9A%84%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%BA%93-%E5%A6%82underscorejs)
   - [相关资源](#%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90)
     - [python函数式的列表](#python%E5%87%BD%E6%95%B0%E5%BC%8F%E7%9A%84%E5%88%97%E8%A1%A8)
     - [Functional CSS的列表](#functional-css%E7%9A%84%E5%88%97%E8%A1%A8)
@@ -19,10 +17,6 @@
   - [concat](#concat)
   - [combinations](#combinations)
   - [permutations](#permutations)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# jim-emacs-fun-es6 JavaScript函数式的列表(如果必要的化引入流行的函数式的库)
 
 ## 相关资源
 ### [python函数式的列表](https://github.com/FPTensorFlow/jim-emacs-fun-py)
