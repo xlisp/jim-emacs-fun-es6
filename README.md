@@ -37,6 +37,18 @@ fn([1, 2]) //=> 3
 
 ``` javascript
 [[1,2],[3,4]].map((a, b) => a + b) //=> [ '1,20', '3,41' ]
+
+[{id: 1, content: "bbb"},
+ {id: 2, content: "ccc"}].map(item => {
+     if (item.id === 2) {
+         var temp = Object.assign({}, item); // 相当于Clojure的merge操作
+         temp.content = "eeee";
+         return temp;
+     } else {
+         return item;
+     }
+ }) // => [ { id: 1, content: 'bbb' }, { id: 2, content: 'eeee' } ]
+
 ```
 ## filter
 
